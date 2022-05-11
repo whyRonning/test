@@ -1,0 +1,7 @@
+<div *ngFor="let user of users| async as c; let i=index">
+  <app-head-title [ngClass]="{'selected':(selectedUser|async)===i}" (clickHandler)="clickHandler($event)" [user]="c[i]" [id]="i"></app-head-title>
+</div>
+<div *ngFor="let userCart of userCarts|async as d;let i=index">
+  <p>{{d[i].name}}</p>
+  <p>{{d[i].description}}</p>
+</div>

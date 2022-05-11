@@ -1,0 +1,10 @@
+.err{
+  background-color: red;
+  width: 30vw;
+  opacity: 0;
+  height: 5vh;
+  transition: .3s ease  ;
+}
+.visible{
+  opacity: 1;
+}

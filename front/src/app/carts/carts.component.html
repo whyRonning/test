@@ -1,0 +1,9 @@
+<p>carts works!</p>
+
+<ng-container *ngIf="carts | async as c">
+  <div class="cartBlock" *ngFor="let cart of c.carts">
+    <app-cart-item [cart]="cart"></app-cart-item>
+  </div>
+</ng-container>
+<button (click)="setCard({name:'2',description:'123'})"></button>
+

@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "MongoURL": "mongodb+srv://customer:Mv31QC30DshyNofg@cluster0.wpbsx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "login": "Anturazh",
+  "jwtSecretCode": "My secretCode for Anturazh a"
+}

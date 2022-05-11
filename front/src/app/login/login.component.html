@@ -1,0 +1,7 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+<app-alert [errText]="errText" [isErr]="isErr"></app-alert>
+  <input type="text" formControlName="login"/>
+  <input type="password" formControlName="password"/>
+  <button type="submit" [disabled]="isErr">Войти</button>
+</form>
+
